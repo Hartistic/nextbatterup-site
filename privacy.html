@@ -6,7 +6,8 @@
   <title>Privacy Policy — Next Batter Up</title>
   <meta name="description" content="Privacy Policy for the Next Batter Up iOS app.">
   <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>&#9918;</text></svg>">
+  <link rel="apple-touch-icon" href="app-icon.png">
+  <link rel="icon" type="image/png" href="app-icon.png">
 </head>
 <body>
 
@@ -23,54 +24,141 @@
     <h1>Privacy Policy</h1>
     <p class="updated">Last updated: March 1, 2026</p>
 
-    <p>Joshua Hart ("we," "us," or "our") operates the Next Batter Up mobile application (the "App"). This Privacy Policy explains how we collect, use, and protect your information when you use the App.</p>
+    <p>Joshua Hart, doing business as Hartistic ("we," "us," or "our"), operates the Next Batter Up mobile application (the "App"). This Privacy Policy describes how we collect, use, disclose, and protect your information when you download, install, or use the App. By using the App, you agree to the practices described in this Privacy Policy. If you do not agree, please do not use the App.</p>
 
     <h2>1. Information We Collect</h2>
-    <p><strong>Information you provide:</strong> Player names, team names, and lineup configurations that you enter into the App. This data is stored locally on your device.</p>
-    <p><strong>Apple Music data:</strong> The App accesses your Apple Music library to play walk-up songs. We do not store, transmit, or collect your Apple Music listening history or library contents.</p>
-    <p><strong>Audio recordings:</strong> If you choose to record custom voice announcements, these recordings are stored locally on your device and are not transmitted to our servers.</p>
-    <p><strong>Automatically collected information:</strong> We may collect anonymous, aggregated usage data (such as app launches and feature usage) through Apple's built-in App Analytics. This data cannot be used to identify you personally.</p>
+
+    <p><strong>1.1 Information You Provide</strong></p>
+    <p>You may enter player names, team names, jersey numbers, lineup configurations, and other team-related content into the App. This data is stored locally on your device using iOS's Core Data framework and, if you choose, backed up to your personal iCloud account (see Section 4).</p>
+
+    <p><strong>1.2 Audio Recordings</strong></p>
+    <p>If you choose to record custom voice announcements, the App will request access to your device's microphone. These recordings are stored locally on your device and are never uploaded to our servers.</p>
+
+    <p><strong>1.3 Photos</strong></p>
+    <p>The App may request access to your photo library so you can add photos for teams. These images are stored locally on your device and are not transmitted to us.</p>
+
+    <p><strong>1.4 Apple Music Data</strong></p>
+    <p>The App requests access to your Apple Music library solely to allow you to select and play walk-up songs. We do not store, collect, transmit, or have access to your Apple Music library contents, listening history, or subscription status.</p>
+
+    <p><strong>1.5 Support Communications</strong></p>
+    <p>The App includes an in-app "Contact Support" feature that opens an iMessage (SMS) conversation. If you use this feature, your phone number will be visible to us as part of the iMessage conversation. We use this information solely to respond to your support inquiry and do not store, sell, share, or use your phone number for any other purpose, including marketing.</p>
+
+    <p><strong>1.6 AI Voice Announcements</strong></p>
+    <p>The App offers AI-generated voice announcements powered by a third-party text-to-speech service (ElevenLabs). When you use this feature, the text you enter for a player's announcement is sent to ElevenLabs' servers to generate the audio. This text typically includes the player's name and any custom announcement text you provide. The generated audio is then stored locally on your device. We do not control ElevenLabs' data practices; please refer to <a href="https://elevenlabs.io/privacy-policy" target="_blank" rel="noopener">ElevenLabs' Privacy Policy</a> for more information on how they handle data.</p>
+
+    <p><strong>1.7 Automatically Collected Information</strong></p>
+    <p>We do not operate analytics servers or use third-party analytics SDKs. Apple may collect anonymous, aggregated usage data (such as app launches, crashes, and device type) through its built-in App Analytics service. This data is collected and controlled by Apple, not by us, and cannot be used to personally identify you. For more information, see <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's Privacy Policy</a>.</p>
+
+    <p><strong>1.8 Information We Do NOT Collect</strong></p>
+    <p>We want to be explicit: we do <strong>not</strong> collect, store, or have access to any of the following:</p>
+    <ul>
+      <li>Your name, email address, or contact information (unless you contact us directly for support via email or the in-app iMessage feature)</li>
+      <li>Location data</li>
+      <li>Device identifiers or advertising identifiers</li>
+      <li>Browsing history or search history</li>
+      <li>Financial or payment information (purchases are handled entirely by Apple)</li>
+      <li>Health, fitness, or biometric data</li>
+      <li>Contacts or calendar data</li>
+    </ul>
 
     <h2>2. How We Use Your Information</h2>
-    <p>We use the information described above solely to:</p>
+    <p>The data you enter into the App is used solely to:</p>
     <ul>
-      <li>Provide and improve the App's functionality</li>
-      <li>Enable you to create and manage team lineups and walk-up music</li>
-      <li>Diagnose technical issues and improve app performance</li>
+      <li>Provide the App's core functionality — managing lineups and playing walk-up music with voice announcements</li>
+      <li>Save your teams, players, and configurations locally for your convenience</li>
+      <li>Generate AI voice announcements when you use that feature (see Section 1.5)</li>
+      <li>Back up and restore your data via iCloud when you enable that feature (see Section 4)</li>
+    </ul>
+    <p>If you contact us via email for support, we use your email address only to respond to your inquiry. We do not add it to any mailing list or share it with third parties.</p>
+
+    <h2>3. Data Sharing &amp; Disclosure</h2>
+    <p><strong>We do not sell, rent, trade, or otherwise disclose your personal information to any third party for marketing or advertising purposes.</strong></p>
+    <p>Your data may be shared in the following limited circumstances:</p>
+    <ul>
+      <li><strong>AI Voice Generation:</strong> When you use the AI voice announcement feature, the announcement text you enter is sent to ElevenLabs to generate audio. No other personal data is transmitted.</li>
+      <li><strong>Sharing Features:</strong> If you use the App's built-in sharing features to share lineups, team files (.nbu format), or PDF rosters with others, that data is transmitted directly between devices using Apple's native sharing frameworks (such as AirDrop or Messages). We do not have access to or control over these transmissions.</li>
+      <li><strong>iCloud:</strong> If you enable iCloud backup, your team data is synced to your personal iCloud account, managed entirely by Apple.</li>
+      <li><strong>Legal Requirements:</strong> We may disclose information if required to do so by law, regulation, legal process, or governmental request, though given that we do not collect personal data on our servers, we would have no information to provide in response to such a request.</li>
     </ul>
 
-    <h2>3. Data Storage &amp; Security</h2>
-    <p>All player data, team data, lineups, and audio recordings are stored locally on your device. We do not operate servers that store your personal data. If you use the App's sharing features, data is transmitted directly between devices using Apple's sharing frameworks.</p>
+    <h2>4. Data Storage, iCloud &amp; Security</h2>
+    <p><strong>Local Storage:</strong> All user-created data (player names, team names, lineups, audio recordings, and music selections) is stored on your device using iOS's Core Data framework and standard on-device storage mechanisms.</p>
+    <p><strong>iCloud Backup:</strong> The App offers optional iCloud backup and restore functionality. When enabled, your team data is stored in your personal iCloud account using Apple's CloudKit/CloudDocuments framework. This data is encrypted in transit and at rest by Apple and is associated with your personal Apple ID. We do not have access to your iCloud data. Your use of iCloud is governed by <a href="https://www.apple.com/legal/internet-services/icloud/" target="_blank" rel="noopener">Apple's iCloud Terms of Service</a> and <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's Privacy Policy</a>.</p>
+    <p><strong>Retention:</strong> Your local data persists on your device for as long as the App is installed. Deleting the App permanently removes all locally stored data from your device. iCloud backups can be managed through your device's iCloud settings.</p>
+    <p><strong>Security:</strong> Your locally stored data is protected by your device's built-in security features, including device passcode, Face ID, Touch ID, and iOS data encryption. We recommend keeping your device software up to date to maintain the highest level of security.</p>
 
-    <h2>4. Third-Party Services</h2>
+    <h2>5. Device Permissions</h2>
+    <p>The App may request the following device permissions, each of which you can manage in your device's Settings:</p>
+    <ul>
+      <li><strong>Media &amp; Apple Music:</strong> Required to access your Apple Music library for walk-up song selection and playback.</li>
+      <li><strong>Microphone:</strong> Optional. Used only if you choose to record custom voice announcements.</li>
+      <li><strong>Photo Library:</strong> Optional. Used only if you choose to add a photo for a team.</li>
+    </ul>
+    <p>You may revoke any of these permissions at any time through your device's Settings app. Revoking permissions may limit certain features of the App.</p>
+
+    <h2>6. Third-Party Services</h2>
     <p>The App integrates with the following third-party services:</p>
     <ul>
-      <li><strong>Apple Music:</strong> Used to play walk-up songs. Subject to <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's Privacy Policy</a>.</li>
-      <li><strong>Apple App Analytics:</strong> Provides anonymous, aggregated usage statistics. Subject to Apple's Privacy Policy.</li>
+      <li><strong>Apple Music:</strong> Used for song playback. Subject to <a href="https://www.apple.com/legal/internet-services/itunes/" target="_blank" rel="noopener">Apple's Media Services Terms and Conditions</a> and <a href="https://www.apple.com/legal/privacy/" target="_blank" rel="noopener">Apple's Privacy Policy</a>.</li>
+      <li><strong>Apple iCloud:</strong> Used for optional backup and restore. Subject to Apple's iCloud Terms and Privacy Policy.</li>
+      <li><strong>Apple App Store:</strong> Handles all purchase transactions. Subject to Apple's terms and privacy policy.</li>
+      <li><strong>ElevenLabs:</strong> Provides AI text-to-speech voice generation. When you use AI voice announcements, the announcement text is sent to ElevenLabs for processing. Subject to <a href="https://elevenlabs.io/privacy-policy" target="_blank" rel="noopener">ElevenLabs' Privacy Policy</a>.</li>
     </ul>
-    <p>We do not sell, rent, or share your personal information with third parties for marketing purposes.</p>
+    <p>We do not integrate any third-party advertising networks, analytics SDKs, social media SDKs, or tracking tools.</p>
 
-    <h2>5. Children's Privacy</h2>
-    <p>The App is rated 4+ and may be used to manage lineups for youth sports teams. We do not knowingly collect personal information from children under 13. Player names entered into the App are stored only on the device and are not transmitted to us. Parents or guardians who believe their child's information has been collected should contact us so we can address the concern.</p>
+    <h2>7. Children's Privacy (COPPA Compliance)</h2>
+    <p>The App is rated 4+ on the App Store and is intended for use by coaches, parents, and other adults to manage lineups for baseball and softball teams, which may include children under 13.</p>
+    <p>We are committed to complying with the Children's Online Privacy Protection Act (COPPA). We do not knowingly collect personal information from children under 13. The App is designed to be operated by adults (coaches and parents), not by children directly.</p>
+    <p>Player names and other team data entered into the App are stored locally on the user's device and are not transmitted to our servers. When AI voice announcements are generated, the player name included in the announcement text is sent to ElevenLabs for audio generation. We recommend that coaches and parents exercise discretion when entering information about minors.</p>
+    <p>Because we do not collect personal information on our servers, there is no personal information of a child for a parent to review, delete, or restrict through us. Parents and guardians can manage all data directly within the App or by deleting the App. If a parent or guardian has concerns, they may contact us at the email address below.</p>
 
-    <h2>6. Your Choices</h2>
-    <p>You can delete all App data at any time by deleting the App from your device. You can also manage individual teams and players within the App.</p>
+    <h2>8. Your Privacy Rights</h2>
 
-    <h2>7. Changes to This Policy</h2>
-    <p>We may update this Privacy Policy from time to time. We will notify you of any material changes by updating the "Last updated" date at the top of this page.</p>
+    <p><strong>8.1 California Residents (CCPA/CPRA)</strong></p>
+    <p>Under the California Consumer Privacy Act (CCPA) as amended by the California Privacy Rights Act (CPRA), California residents have the right to know what personal information is collected, to delete personal information, to opt out of the sale or sharing of personal information, and to not be discriminated against for exercising these rights.</p>
+    <p>We do not sell or share personal information as defined by the CCPA/CPRA. The only personal information that may be transmitted from the App is announcement text sent to ElevenLabs for AI voice generation, which is used solely to provide the requested service and is not sold or shared for any other purpose. If you wish to make a verifiable consumer request, you may contact us at the email address below.</p>
 
-    <h2>8. Contact Us</h2>
-    <p>If you have questions about this Privacy Policy, please contact us at:</p>
-    <p><a href="mailto:nextbatterup@gmail.com">nextbatterup@gmail.com</a></p>
+    <p><strong>8.2 European Economic Area, United Kingdom &amp; Switzerland (GDPR/UK GDPR)</strong></p>
+    <p>If you are located in the EEA, UK, or Switzerland, you have rights under the General Data Protection Regulation (GDPR) including the right of access, rectification, erasure, data portability, restriction of processing, and the right to object to processing.</p>
+    <p>The App processes nearly all data locally on your device. For AI voice announcements, the legal basis for sending announcement text to ElevenLabs is your explicit consent (you initiate each request). You have full control over your data on your device at all times. You may delete all data by uninstalling the App.</p>
+
+    <p><strong>8.3 All Users</strong></p>
+    <p>Regardless of your location, you have the ability to:</p>
+    <ul>
+      <li>Access and review all data stored by the App (it is all visible within the App)</li>
+      <li>Delete individual teams, players, or recordings within the App</li>
+      <li>Delete all App data by uninstalling the App from your device</li>
+      <li>Manage iCloud backups through your device's Settings</li>
+      <li>Revoke device permissions at any time through your device's Settings</li>
+      <li>Choose not to use AI voice announcements to avoid sending data to ElevenLabs</li>
+    </ul>
+
+    <h2>9. Do Not Track &amp; App Tracking</h2>
+    <p>The App does not track you across other apps or websites. We do not respond to Do Not Track (DNT) signals because we do not engage in any tracking. We do not use Apple's App Tracking Transparency framework because we do not track users.</p>
+
+    <h2>10. Data Transfers</h2>
+    <p>Most data is stored locally on your device with no international transfer. When you use AI voice announcements, announcement text is sent to ElevenLabs, which may process data on servers located in the United States or other jurisdictions. iCloud data is managed by Apple in accordance with Apple's data handling practices. No other data is transferred to our servers or any third-party servers.</p>
+
+    <h2>11. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time. When we make changes, we will update the "Last updated" date at the top of this page. If we make material changes that affect how we handle personal information, we will provide notice through the App or by other appropriate means. Your continued use of the App after any changes constitutes your acceptance of the updated Privacy Policy.</p>
+
+    <h2>12. Contact Us</h2>
+    <p>If you have any questions, concerns, or requests regarding this Privacy Policy or our privacy practices, please contact us at:</p>
+    <p>
+      Joshua Hart / Hartistic<br>
+      Email: <a href="mailto:support@remori.io">support@remori.io</a>
+    </p>
+    <p>We will make every effort to respond to your inquiry within 30 days.</p>
   </div>
 
   <footer>
     <div class="footer-links">
       <a href="privacy.html">Privacy Policy</a>
       <a href="terms.html">Terms of Service</a>
-      <a href="mailto:nextbatterup@gmail.com">Contact</a>
+      <a href="https://www.tiktok.com/@nextbatterupapp/" target="_blank" rel="noopener">TikTok</a>
+      <a href="mailto:support@remori.io">Contact</a>
     </div>
-    <p>&copy; 2024 Joshua Hart. All rights reserved.</p>
+    <p>&copy; 2020–2026 Hartistic. All rights reserved.</p>
   </footer>
 
 </body>
